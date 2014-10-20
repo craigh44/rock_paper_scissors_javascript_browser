@@ -1,80 +1,54 @@
 body {
-    /*background-color: lightblue;*/
     padding:0;
-      margin:0;
+    margin:0;
 }
 
 h1 {
-	 font-size: 40px;
+	  font-size: 40px;
 		text-align: center;
     color: white;
     margin-left: 40px;
 } 
 
 h2 {
-	 font-size: 40px;
+	  font-size: 40px;
 		text-align: center;
     color: black;
     margin-left: 40px;
 }
 
 
-section.images {
-	background-color: grey;
-	text-align: center;
-
-}
-
-.rock {
-  background-color: #2db34a;
-  transition-property: background;
-  transition-duration: 1s;
-  transition-timing-function: linear;
-}
-
-.paper {
-  background-color: #2db34a;
-  transition-property: background;
-  transition-duration: 1s;
-  transition-timing-function: linear;
-}
-
-.scissors {
-  background-color: #2db34a;
-  transition-property: background;
-  transition-duration: 1s;
-  transition-timing-function: linear;
-}
-
-.rock:hover {
-  background-color: #ff7b29;
-}
-
-.paper:hover {
-  background-color: #ff7b29;
-}
-
-.scissors:hover {
-  background-color: #ff7b29;
+section.choice {
+		background-color: grey;
+		text-align: center;
 }
 
 section.title{
-	background-color: #fffff2;
-	text-align: center;
-
-
+		background-color: #fffff2;
+		text-align: center;
 }
 
 p {
-	color: grey ;
-	text-align: center;
+		 color: grey ;
+	 	 text-align: center;
 }
 
 nav {
-	display: block;
-	background-color: grey;
-	height: 60px;
-	border-top: 1px solid #000;
-	border-bottom: 1px solid #000;
+		 display: block;
+	 	 background-color: grey;
+		 height: 60px;
+		 border-top: 1px solid #000;
+		 border-bottom: 1px solid #000;
 }
+
+.choice img {
+		 opacity: 0.5;
+}
+
+.choice .highlight  {
+		 opacity: 1;
+
+}
+
+
 

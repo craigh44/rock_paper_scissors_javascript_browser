@@ -1,55 +1,55 @@
 <html>
 	<body>
-		<head>
-				<link rel="stylesheet" type="text/css" href="../css/rockpaperscissors.css">
-			</head>
-			<nav id='cssmenu'>
-				<a href="index.html">Home</a>
-			</nav>
-					<section class="title"><br>
-			<br>
-			<br>
-			<br>
-			<br>
+		<head>	
 
 		<title>Rock, Paper, Scissors</title>
 	
-
-			<br><br><br><br><br>
-	<a href="#images"><img src="../images/logo.jpg"></a>
-
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+				<link rel="stylesheet" type="text/css" href="../css/rockpaperscissors.css">
+			</head>
+			
+			<nav id='cssmenu'>
 	
-	</section>
-	<a name="images"></a><section class='images'>
+			</nav>
 
+<section class="title">
+	<br><br><br><br><br><br><br><br><br><br>
+		<a href="#images"><img src="../images/logo.jpg"></a>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</section>
+
+	<a name="images">
+	</a><section class='choice'>
 	<hr>
 		<h2>Choose your weapon!!</h2>
-<br><br><br><br>
-
-
-	<a class="rock" href='index.html'><img src='../images/rock.png' height="200" width="200" /></a>
-
-	<a class="paper" href='index.html'><img src='../images/paper.png' /></a>
-
-	<a class="scissors" href='index.html'><img src='../images/scissors.png' /></a>
-
-<br>
-<br>
-<br><br><br><br>
-
-
+			<br><br><br><br>
+				<img src='../images/rock.png' height="200" width="200">
+				<img src='../images/paper.png'>
+				<img src='../images/scissors.png'>
+	<br><br><br><br><br><br>
 <hr>
 </section>
-<br>
-<br>
-<br>
-<br>
+<br><br><br><br>
+
 <footer>
   <p>&copy; Copyright 2014, Craig Horsborough</p>
- 
 </footer>
 
+
+<script src="../javascript/jquery.js"></script>
+
+<script>
+
+$(document).ready(function() {
+
+	$('.choice').on('mouseenter', 'img', function(){
+		$(this).addClass("highlight");
+	});
+	$('.choice').on('mouseleave', 'img', function(){
+		$(this).removeClass('highlight');
+	});
+});
+
+</script>
 
 
 	</body>
